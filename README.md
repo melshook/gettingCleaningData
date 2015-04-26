@@ -26,3 +26,4 @@ What the script does:
 12. Writes the tidy data set to a file named "tidyData.txt" which should appear in your working directory if the script is successful. If you want to read the file into a dataframe, use header=TRUE parameter so that the headers will show up as column names - otherwise it puts the header in the first row and names the columns "V1", "V2", etc. 
                  example: 
                       tidyData <- read.table("tidyData.txt", header=TRUE)
+13. Prints "File Created" to the console
