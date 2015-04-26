@@ -121,44 +121,44 @@ Each variable that represented a mean or standard deviation was aggregated by su
    This is the average of the Fast Fourier Transformed accelerometer jerk standard deviation values along the z axis of the phone.
 55. avgfbodygyromeanx (numeric)
    This is the average of the Fast Fourier Transformed gyroscope mean values along the x axis of the phone.
-55. avgfbodygyromeany (numeric)
+56. avgfbodygyromeany (numeric)
    This is the average of the Fast Fourier Transformed gyroscope mean values along the y axis of the phone.
-56. avgfbodygyromeanz (numeric)
+57. avgfbodygyromeanz (numeric)
    This is the average of the Fast Fourier Transformed gyroscope mean values along the z axis of the phone.
-57. avgfbodygyrostdx (numeric)
+58. avgfbodygyrostdx (numeric)
   This is the average of the Fast Fourier Transformed gyroscope standard deviation values along the x axis of the phone.
-58. avgfbodygyrostdy (numeric)
+59. avgfbodygyrostdy (numeric)
   This is the average of the Fast Fourier Transformed gyroscope standard deviation values along the y axis of the phone.
-59. avgfbodygyrostdz (numeric)
+60. avgfbodygyrostdz (numeric)
    This is the average of the Fast Fourier Transformed gyroscope standard deviation values along the z axis of the phone.
-60. avgfbodyaccmagmean (numeric)
+61. avgfbodyaccmagmean (numeric)
    This is the average of the Fast Fourier Transformed accelerometer magnitude mean values.
-61. avgfbodyaccmagstd (numeric)
+62. avgfbodyaccmagstd (numeric)
    This is the average of the Fast Fourier Transformed accelerometer magnitude standard deviation values.
-62. avgfbodybodyaccjerkmagmean (numeric)
+63. avgfbodybodyaccjerkmagmean (numeric)
    This is the average of the Fast Fourier Transformed accelerometer jerk magnitude mean values.
-63. avgfbodybodyaccjerkmagstd (numeric)
+64. avgfbodybodyaccjerkmagstd (numeric)
    This is the average of the Fast Fourier Transformed accelerometer jerk magnitude standard deviation values.
-64. avgfbodybodygyromagmean (numeric)
+65. avgfbodybodygyromagmean (numeric)
    This is the average of the Fast Fourier Transformed gyroscope magnitude mean values.
-65. avgfbodybodygyromagstd (numeric)
+66. avgfbodybodygyromagstd (numeric)
    This is the average of the Fast Fourier Transformed gyroscope magnitude standard deviation values.
-66. avgfbodybodygyrojerkmagmean (numeric)
+67. avgfbodybodygyrojerkmagmean (numeric)
    This is the average of the Fast Fourier Transformed gyroscope jerk magnitude mean values.
-67. avgfbodybodygyrojerkmagstd (numeric)
+68. avgfbodybodygyrojerkmagstd (numeric)
    This is the average of the Fast Fourier Transformed gyroscope jerk magnitude standard deviation values.
-68. avgangletbodyaccmeangravity (numeric)
-   This is the average of the values obtained by averaging the signals in a signal window sample of accelerometer mean gravity. 69. avgangletbodyaccjerkmeangravitymean (numeric)
+69. avgangletbodyaccmeangravity (numeric)
+   This is the average of the values obtained by averaging the signals in a signal window sample of accelerometer mean gravity. 70. avgangletbodyaccjerkmeangravitymean (numeric)
    This is the average of the values obtained by averaging the signals in a signal window sample of accelerometer jerk mean gravity.
-70. avgangletbodygyromeangravitymean (numeric)
+71. avgangletbodygyromeangravitymean (numeric)
    This is the average of the values obtained by averaging the signals in a signal window sample of gyroscope mean gravity.
-71. avgangletbodygyrojerkmeangravitymean (numeric)
+72. avgangletbodygyrojerkmeangravitymean (numeric)
   This is the average of the values obtained by averaging the signals in a signal window sample of gyroscope jerk mean gravity.
-72. avganglexgravitymean (numeric)
+73. avganglexgravitymean (numeric)
   This is the average of the values obtained by averaging the signals in a signal window sample of mean gravity along the x axis of the phone.
-73. avgangleygravitymean (numeric)
+74. avgangleygravitymean (numeric)
    This is the average of the values obtained by averaging the signals in a signal window sample of mean gravity along the y axis of the phone.
-74. avganglezgravitymean (numeric)
+75. avganglezgravitymean (numeric)
    This is the average of the values obtained by averaging the signals in a signal window sample of mean gravity along the z axis of the phone.
 
 
