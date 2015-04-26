@@ -83,7 +83,6 @@ run_analysis <- function (){
         ##average values
         colnames(tidyData)[3:75] <- str_c("avg", colnames(tidyData)[3:75])
               ##order by the Subject and Activity columns
-        #tidyData <- tidyData[order(tidyData$Subject, tidyData$Activity),]
         tidyData <- arrange(tidyData, Subject, Activity)
               ##writes the data to a text file with headers
         write.table(tidyData, file="tidyData.txt", row.name=FALSE)
