@@ -18,8 +18,11 @@ run_analysis <- function (){
         features2 <- tolower(features$V2)
         features2 <- sub("mean", "need1", features2)
         features2 <- sub("std", "need2", features2)
-        features2 <- sub("-", "", features2)
+        features2 <- gsub("-", "", features2)
         features2 <- sub("need1freq", "NA", features2)
+        features2 <- gsub("\\(", "", features2)
+        features2 <- gsub("\\)", "", features2)
+        features2 <- gsub("\\,", "", features2)
             ##load measurements
         xtest <- read.table("X_test.txt")
         xtrain <- read.table("X_train.txt")
@@ -80,11 +83,12 @@ run_analysis <- function (){
         ##average values
         colnames(tidyData)[3:75] <- str_c("avg", colnames(tidyData)[3:75])
               ##order by the Subject and Activity columns
-        tidyData <- tidyData[order(tidyData$Subject, tidyData$Activity),]
+        #tidyData <- tidyData[order(tidyData$Subject, tidyData$Activity),]
+        tidyData <- arrange(tidyData, Subject, Activity)
               ##writes the data to a text file with headers
         write.table(tidyData, file="tidyData.txt", row.name=FALSE)
               ##loads the text file into a dataframe
         tidyData <- read.table("tidyData.txt", header=TRUE)
-        print(head(tidyData))
+        print("File created")
 }
 
